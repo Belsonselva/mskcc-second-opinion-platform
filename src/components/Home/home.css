@@ -1,0 +1,47 @@
+.slider-height-3 {
+    background-image: url("https://assets.icliniq.com/v2/assets/images/mskcc/img/mskcc-cancer/home-banner-doctor-v2.jpg");
+    min-height: 780px;
+    z-index: -1;
+}
+.hero-text-box {
+    padding: 75px;
+    background: #fff;
+    padding-right: 66px;
+}
+.banner-text-color{
+    color: #647589;
+}
+.btn-icon {
+    transition: all .3s ease 0s;
+    position: relative;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 60px;
+    padding-left: 84px;
+    padding-right: 50px;
+    padding-top: 24px;
+    padding-bottom: 22px;
+    background-color: #002569;
+    box-shadow: 0 8px 16px 0 #06488546;
+}
+.btn-icon span {
+    position: absolute;
+    left: 5px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    line-height: 50px;
+    background: #fff;
+    transition: .3s;
+    font-size: 20px;
+    font-weight: 600;
+    color: #223645;
+    border-radius: 100%;
+}
+.btn-icon:hover {
+    transition: all .3s ease 0s;
+    background-color: #f7fbff;
+    box-shadow: 0 8px 16px 0 rgba(125,178,73,.2);
+    color: #223645;
+}

@@ -1,4 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+body {
+    background: #fff;
+    font-family: 'rubik',sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #223645;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins-font{
+    font-family: 'Poppins', sans-serif;
+}
+.rubik-font{
+    font-family: 'rubik',sans-serif;
+}
+.gray-bg {
+    background: #f4f9fc;
+}
