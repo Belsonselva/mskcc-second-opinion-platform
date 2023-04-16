@@ -5,12 +5,12 @@ body {
     background: #fff;
     font-family: 'rubik',sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,.h1,
+h2,.h2,
+h3,.h3,
+h4,.h4,
+h5,.h5,
+h6,.h6 {
     color: #223645;
     font-family: 'Poppins', sans-serif;
 }
@@ -22,4 +22,36 @@ h6 {
 }
 .gray-bg {
     background: #f4f9fc;
+}
+
+.container-alternate {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width: 576px) {
+    .container-alternate {
+        max-width:540px
+    }
+}
+
+@media (min-width: 768px) {
+    .container-alternate {
+        max-width:720px
+    }
+}
+
+@media (min-width: 992px) {
+    .container-alternate {
+        max-width:960px
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-alternate {
+        max-width:1200px
+    }
 }
