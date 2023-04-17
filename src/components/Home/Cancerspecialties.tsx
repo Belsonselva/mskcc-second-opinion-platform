@@ -1,4 +1,4 @@
-import './cancerspecialties.css'
+import './home.css'
 function Cancerspecialties() {
   return (
     <>
